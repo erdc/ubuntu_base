@@ -46,6 +46,8 @@ RUN apt-get update && apt-get -yq dist-upgrade \
     vim \
     nano \
     wget \
+    libxmu-dev \
+    libxi-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
