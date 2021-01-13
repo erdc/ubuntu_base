@@ -48,6 +48,7 @@ RUN apt-get update && apt-get -yq dist-upgrade \
     wget \
     libxmu-dev \
     libxi-dev \
+    libgeos-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
