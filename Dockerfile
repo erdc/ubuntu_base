@@ -34,7 +34,7 @@ RUN apt-get update && apt-get -yq dist-upgrade \
     cmake \
     gfortran \
     g++ \
-    libssl1.0-dev \
+    libssl-dev \
     locales \
     libffi-dev \
     libjpeg-dev \
