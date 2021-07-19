@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 MAINTAINER Proteus Project <proteus@googlegroups.com>
 
@@ -10,7 +10,7 @@ RUN apt-get update && apt-get -yq dist-upgrade \
     && apt-get install -yq --no-install-recommends --fix-missing \
     sudo \
     apt-utils \
-    && curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - \
+    && curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - \
     curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - \
     echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list \
     && apt-get clean \
