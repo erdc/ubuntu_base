@@ -28,6 +28,7 @@ RUN apt-get update && apt-get -yq dist-upgrade \
     python \
     python3 \
     make \
+    automake \
     autoconf \
     autotools-dev \
     cmake \
