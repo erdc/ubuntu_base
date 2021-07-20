@@ -32,6 +32,7 @@ RUN apt-get update && apt-get -yq dist-upgrade \
     automake \
     autoconf \
     autotools-dev \
+    bison \
     cmake \
     gfortran \
     g++ \
