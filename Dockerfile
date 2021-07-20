@@ -42,6 +42,7 @@ RUN apt-get update && apt-get -yq dist-upgrade \
     libopenjp2-7-dev \
     ffmpeg \
     zlib1g-dev \
+    xz-utils \
     nodejs \
     node-gyp \
     yarn \
